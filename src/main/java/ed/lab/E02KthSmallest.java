@@ -19,7 +19,7 @@ public class E02KthSmallest {
             count++;
 
             if (count == k) {
-                return current.value;  // Usamos 'value' en lugar de 'val'
+                return current.value;
             }
 
             current = current.right;
